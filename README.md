@@ -14,7 +14,7 @@ You are going to build a web-application _from scratch_. This project is **due 8
 
 | Pick Game / App | Draft GUI / Console IO | Code! | Test & Fix | Submit _by_|
 |:----:|:----:|:----:|:----:|:----:|
-|By Tues. May 28th| May 28-29 | May 30 - June 13 | Jan 13-17 |Tues June 18th @ 8:30am |
+|By Tues. May 28th| May 28-29 | May 30 - June 13 | June 13-17 |Tues June 18th @ 8:30am |
 
 ### Step 1: Proposal Pick a Game or App
 Decide what you'd like to build. [Click here to submit your proposal](https://docs.google.com/forms/d/e/1FAIpQLSeLipOD1vG9q36Sgezdo_NnWaL7N62qcPjql6wWCZQ-CDn2Lw/viewform?usp=sf_link).
