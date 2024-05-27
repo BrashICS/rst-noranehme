@@ -1,59 +1,56 @@
-# ICS3UC Final Project (RST)
-
-ICS3UC Final Project (Rich Summative Task) worth 30% of the overall mark.
+# G. 11 Final Project (RST)
 
 ###### ICS3UC - Mr. Brash 🐿️
 
-It's time! You are going to build a web-application _from scratch_. This project is **due at 8:30am on Tuesday, June 18th** - 16 class days @ 75 mins = 20 hrs of class time, plus weekends and evenings. **That due date _can not be adjusted_.**
+`Final Project (Rich Summative Task) `**`worth 30% of the overall mark`.**
 
-### _Suggested_ Timeline (See descriptions below the table)
+**Note:** The code files have _not_ been setup for you. If you need help with this, check your previous repos first, talk to a classmate, and then ask Mr.
 
-| Decide on Game & Start Draft | Draft GUI | PseudoCode (structure) | Code | Test & Fix | Submit _by_|
-|:----:|:----:|:----:|:----:|:----:|:----:|
-|By Wed. Dec. 13th| By Dec. 16th|Dec. 18-19|Dec 20th - Jan 17th|Jan 18-22nd|Jan 23rd @ 8:30am|
+### It's time!
 
-### Step 1: Proposal
-[Click here to complete your proposal](https://docs.google.com/forms/d/e/1FAIpQLSeLipOD1vG9q36Sgezdo_NnWaL7N62qcPjql6wWCZQ-CDn2Lw/viewform?usp=sf_link). Submit the form with the requested details, to the best of your ability.
+You are going to build a web-application _from scratch_. This project is **due 8:30am on Tuesday, June 18th** - 16 class days x 75 mins = 20 hrs of class time, plus weekends and evenings. **That due date _can not be adjusted_.**
+
+### _Suggested_ Timeline
+
+| Pick Game / App | Draft GUI / Console IO | Code! | Test & Fix | Submit _by_|
+|:----:|:----:|:----:|:----:|:----:|
+|By Tues. May 28th| May 28-29 | May 30 - June 13 | Jan 13-17 |Tues June 18th @ 8:30am |
+
+### Step 1: Proposal Pick a Game or App
+Decide what you'd like to build. [Click here to submit your proposal](https://docs.google.com/forms/d/e/1FAIpQLSeLipOD1vG9q36Sgezdo_NnWaL7N62qcPjql6wWCZQ-CDn2Lw/viewform?usp=sf_link).
 
 ### Step 2: Draft GUI (storyboard)
-Either on paper, a whiteboard, or a digital image (see the `Draft GUI.draw` file) create and submit a _detailed_ design for the front-end of the program. This should include any and all input from the user as well as extra pages or information panels. Being detailed here will save you time in the future.
+Either on paper, a whiteboard, or a digital image create a _detailed_ design for the front-end of the program. This should include any and all input from the user as well as extra pages or information panels. _Being detailed here will save you time in the future._ Put all images or planning in the [Step 2](Step_2) folder.
 
-### Step 3:  Structure & Pseudocode
+### Step 3: Planning - Structure & Pseudocode
 Now that you have a front-end, you can begin designing the data structure and functional structure for your program.
 - What sort of data structure will you need
   - Do you need an array? Multiple arrays? Strings?
   - Are any of them going to be _global_ variables so that all functions have access to them?
-- What HTML elements will you be using?
+- What HTML elements will you be using (if any)?
   - What event-listeners do you need?
   - What will those listeners be calling?
-- What is the functional structure of the program?
-  - What functions will you need and what will they be called?
+- What functions will you need and what will they be called?
 
 ### Step 4: Coding
 If you planned the GUI and the code structure properly, the coding should be easier at this point.
 **Comment your code as you go and adjust the comments as necessary!**
 1. Create the basic GUI. Don't worry about colours, fonts, design - don't even worry about specific photos (you can replace them later). Give your elements meaningful IDs and structure the layout to mimic your draft GUI.
-2. Connect your JavaScript to the HTML.
+2. Connect your JavaScript to the HTML (if using HTML).
     - Create your event listeners and test them - do they act as planned and give the information you need?
     - Create your data structure, global variables, and constants that you decided upon in **Step 3**.
 
 3. Write the functions one-by-one, testing as necessary. Keep notes on changes you foresee or extra functions and algorithms you did not realize you would need during your planning stages. (Do _not_ change your draft or pseudocode, it's ok if they don't match.)
 
 ### Step 5: Testing
-Test your program _extensively_. Have _someone else_ test your program extensively. Make the appropriate bug fixes or changes to your program. Listen to your tester(s) and consider their input. The user should not need you to explain _anything_ to be able to use your program.
+
+Test your program _extensively_. **Have _someone else_ test your program extensively**. Make the appropriate bug fixes or changes to your program. Listen to your tester(s) and consider their input. The user should not need you to explain _anything_ to be able to use your program.
 
 Then test it again. And again...
 
 ### Submit!
 
----
-
-### Important note
-The loading of your `script.js` has been placed inside the `<head></head>` portion of your HTML file with the `defer` keyword.
-```HTML
-<script src="script.js" defer></script>
-```
-This will load it **last** automatically. Don't move it unless you know you need to.
+Synchronize your code back to GitHub with the Commit Message "Submission" to indicate that you are done.
 
 <hr>
 
@@ -64,16 +61,16 @@ Creating a _game_ is more fun than a generic application. That being said if you
 | Game / App | Difficulty (subjective opinion) |
 |------------|:----------:|
 |2 Player Hangman - P1 enters the hidden text<br>[Example](https://hangman-example.mrbrash.repl.co/) | Low to Medium |
-|Hangman vs Computer - Hidden text is selected from a list<br>[Text-based example](https://replit.com/@MrBrash/Hangman-v2-Example)| Medium |
+|Hangman vs Computer - Hidden text is selected from a list<br>[Text-based example](https://github.com/MisterBrash/Text-based_Hangman)| Medium |
 |Wordle Remake (perhaps add your own twist) | Medium-High |
-|[Encryption / Decryption App](https://simple-encryption-example.mrbrash.repl.co/) | Low |
+|Encryption / Decryption App | Low |
 |[Word Scrambles](https://i0.wp.com/www.happinessishomemade.net/wp-content/uploads/2019/03/Printable-Easter-Word-Scramble.jpg)| Low |
 |Lights Out| Medium-High (needs 2D Arrays) |
 |Reaction Timer | Low-Medium (timing)<br>Does not cover the course |
 |Advanced Cookie Clicker| Medium |
 |Mastermind (CodeBreaker) | Medium-High |
-|[2048](https://ics3uc-final-project.ninjapenguin21.repl.co/)|Hard (2D Arrays & Much More)|
-|Tic-Tac-Toe| Low (`not permitted`)  |
+|[2048](https://misterbrash.github.io/2048_Student_Example/)|Hard (2D Arrays & Much More)|
+|Tic-Tac-Toe| Low (`new students only`)  |
 |Tic-Tac-Toe PRO | Med-Hard (2D arrays) |
 |Connect 4| Medium |
 |Simon| Medium-High<br>(Graphics & Timing) |
